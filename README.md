@@ -22,7 +22,7 @@ Node-RED runs.
 #Installation Instructions
 1. Click Deploy to Bluemix button.
 2. Login to Bluemix when prompted.
-![click_login](https://github.com/eifinger/watson-iot-services-demo-starter/tree/master/documentation/images/click_login.PNG)
+![click_login](https://github.com/eifinger/watson-iot-services-demo-starter/blob/master/documentation/images/click_login.PNG)
 3. Accept the automatically generated name or change it.
 4. Wait for the orginization and space information to be populated.
 5. (Optional) Change the target orginization and space
