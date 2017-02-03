@@ -1,10 +1,26 @@
 applications:
-- memory: 512M
+- memory: 1024M
   services:
-  - sample-node-red-cloudantNoSQLDB
+  - sample-iot-demo-cloudantNoSQLDB
+  - sample-iot-demo-iotp
+  - sample-iot-demo-tts
+  - sample-iot-demo-stt
+  - sample-iot-demo-language_translator
   env:
-    NODE_RED_STORAGE_NAME: sample-node-red-cloudantNoSQLDB
+    NODE_RED_STORAGE_NAME: sample-iot-demo-cloudantNoSQLDB
 declared-services:
-  sample-node-red-cloudantNoSQLDB:
+  sample-iot-demo-cloudantNoSQLDB:
     label: cloudantNoSQLDB
     plan:  Lite
+  sample-iot-demo-iotp:
+    label: iotf-service
+    plan:  iotf-service-free
+  sample-iot-demo-tts:
+    label: text_to_speech
+    plan:  standard
+  sample-iot-demo-stt:
+    label: speech_to_text
+    plan:  standard
+  sample-iot-demo-language_translator:
+    label: language_translator
+    plan:  standard
