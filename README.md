@@ -58,5 +58,6 @@ Node-RED runs.
 24. On the Security Tab set "Watson-IoT-Sensor-Simulator" as the token and click "Next"
 ![create_device_2](https://github.com/eifinger/watson-iot-services-demo-starter/blob/master/documentation/images/create_device_2.PNG)
 25. Review your Device Information and click "Add"
-26. You are now ready to play throw the Flow "Temp Sensor with TTS" on your Node RED demo instance
-27. Go again to https://console.ng.bluemix.net/dashboard/apps/ to access your app.
+26. Repeat steps 15-25 with "Watson-IoT-Car-Simulator" for Device Type, Device ID and Device Token to have a separate device for the Car Simulator Use Case
+27. You are now ready to play throw the Flow "Temp Sensor with TTS" on your Node RED demo instance
+28. Go again to https://console.ng.bluemix.net/dashboard/apps/ to access your app.
