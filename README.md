@@ -3,7 +3,7 @@ Watson IoT Services Demo Starter
 
 ### Watson IoT Services Demo Starter
 
-This repository is the Watson IoT Services Demo Starter which can be depoyed into your own repository with a single click.
+This repository is the Watson IoT Services Demo Starter which can be deployed into your own repository with a single click.
 Just click the button below and start giving hands on demonstrations.
 
 ### How does this work?
